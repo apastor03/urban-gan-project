@@ -61,3 +61,72 @@ Limitations:
 - Performance depends on training duration and dataset size
 
 ---
+
+## How to Run
+
+### 1. Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/urban-gan-project.git
+
+cd urban-gan-project
+
+
+### 2. Install dependencies
+
+pip install torch torchvision matplotlib pandas scikit-image
+
+
+### 3. Run the pipeline
+
+python your_script_name.py
+
+
+### 4. Enter a city name when prompted
+Example:
+
+Enter a city name: for example, Chicago
+
+
+The model will:
+- Generate a future satellite image
+- Print evaluation metrics (SSIM)
+- Save the output image
+
+---
+
+## Evaluation
+
+Model performance is evaluated using:
+
+- **SSIM (Structural Similarity Index)**  
+  Measures similarity between generated and real images  
+
+---
+
+## Future Improvements
+
+- Implement Pix2Pix GAN for sharper outputs  
+- Use diffusion models for higher realism  
+- Add multi-year prediction (e.g., 2010 → 2020 → 2030)  
+- Incorporate external data (population, zoning, etc.)  
+
+---
+
+## Acknowledgements
+
+- PyTorch for deep learning framework  
+- scikit-image for evaluation metrics  
+- Public satellite imagery datasets  
+
+---
+
+## References
+
+- Isola et al. (2017). *Image-to-Image Translation with Conditional Adversarial Networks*  
+- Goodfellow et al. (2014). *Generative Adversarial Networks*  
+
+---
+
+## Author
+Adam Pastor  
+Quantitative Sciences & Physics 
